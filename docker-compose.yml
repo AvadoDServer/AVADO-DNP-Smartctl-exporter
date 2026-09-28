@@ -1,0 +1,7 @@
+version: '3.4'
+services:
+  smartctl-exporter.avado.dappnode.eth:
+    build: ./build
+    image: 'smartctl-exporter.avado.dappnode.eth:0.0.1'
+    restart: always
+    privileged: true
