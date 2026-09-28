@@ -1,0 +1,19 @@
+{
+  "name": "smartctl-exporter.avado.dappnode.eth",
+  "version": "0.0.1",
+  "upstream": "v0.14.0",
+  "description": "Shows your disk's health, temperature and wear in Grafana (Disk health dashboard). It is installed together with the Grafana package.",
+  "autoupdate": true,
+  "title": "SMART disk stats",
+  "type": "library",
+  "avatar": "/ipfs/QmYRmFCtdXvqq3drc6kBXxeWiiMatTfKVpVrmLX883cQbR",
+  "author": "AVADO",
+  "image": {
+    "privileged": true,
+    "volumes": [],
+    "ports": [],
+    "environment": [],
+    "restart": "always"
+  },
+  "license": "GPL-3.0"
+}
